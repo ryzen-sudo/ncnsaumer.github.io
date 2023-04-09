@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NCNSA</title>
+    <link rel="stylesheet" type="text/css" href="project2.css">
+    
+  </head>
+  <body>
+    <header>
+       <nav class="navbar">
+        <ul>
+          <li><a href="project.html">Home</a></li>
+          <li><a href="E Coarse.html">Training and Coarses</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="featured-products">
+        <h2 class="headingfeatureproduct">NCNSA's Products</h2>
+        <ul>
+          <li>
+            <h1>Product 1</h1><br>
+            <h3><u> WiFi Deauther Watch</u></h3><br>
+            <img src="wifi deauther.jpeg" alt="Product 1">
+            <div class="slideshow-container">
+              <div class="mySlides">
+                <img src="wifi deauther2 .jpeg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <img src="wifi deauther3.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <img src="wifi deauther 4.jpeg" style="width:100%">
+              </div>
+            </div>
+            
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            <div id="pink"><i><p>While a jammer just creates noise on a specific frequency range (i.e. 2.4 GHz), a deauthentication attack is only possible due to a vulnerability in the Wi-Fi (802.11) standard. The deauther does not interfere with any frequencies, it is just sending a few Wi-Fi packets that let certain devices disconnect. That enables us to specifically select every target. A jammer just blocks everything within a radius and is therefore highly illegal to use.</p></i></div><br>
+            <div id="v"><b><p> 20.89 $ </p></b></div>
+            <button class="addtocart">Add to Cart</button>  <button class="cashondilvery">Cash on Delivery</button>
+          </li><br><br>
+          <hr><hr><br><br>
+          <li>
+           <b> <h1>PRODUCT 2 </h1></b><br><br>
+          <u><i><h3>USB RUBBER DUCKY:-</h3></i></u>
+          <img src="rb.png" alt="Product 2">
+          <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="RB ducky1.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <img src="RB ducky2.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <img src="rb ducky4.jpeg" style="width:100%">
+              </div>
+            </div>
+            
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            <div id="pink"><i><p>USB Rubber ducky is created and developed by Hak5. Nearly every computing devices accepts human input from keyboards, hence the ubiquitous HID specification - or Human Interface Device. Keyboards announce themselves to computers as HID devices and are in turn automatically recognized and accepted.
+  The USB Rubber Ducky delivers powerful payloads in seconds by taking advantage of the target computers inherent trust all while deceiving humans by posing as an ordinary USB drive.</p></i></div><br><br>
+              <div id="v"><b><p> 13.09 $</p></b></div><br>
+            <button>Add to Cart</button>
+            <button>Cash on Delivery</button><br><br>
+          </li><br><br>
+          <hr><hr><br><br>
+          <li>
+            <h1>Product 3 </h1>
+          <u><i><h3> HackRF One:-</h3></i></u>
+            <img src="RF1.jpeg" alt="Product 3">
+            <div class="slideshow-container">
+              <div class="mySlides">
+                <img src="RF2.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <img src="RF.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <img src="RF3.jpeg" style="width:100%">
+              </div>
+            </div>
+            
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+           <div id="pink"> <p>HackRF One from Great Scott Gadgets is a Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz. Designed to enable test and development of modern and next generation radio technologies. We can read and manipulate radio frequencies using this device.</p></div><br><br>
+                 <div id="v"> <b><p> 17.00 $</p></b></div>
+            <button>Add to Cart</button>
+            <button>Cash on Delivery</button><br><br>
+            <hr>
+          </li>
+        </ul>
+      </section>
+      
+    </main>
+    <footer>
+    <script>
+      var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+     <div id="umer"> <B><p>Copyright &copy; 2023 My E-Commerce Website</p> <p>CYBER AGENCY BOIS<p></B><div>
+      <a href="project.html" class="previous-page-button">Previous Page</a>
+            <a href="project2.html" class="next-page-button">Next Page</a>
+    </footer>
+    <script src="add to cart button"></script>
+  </body>
+</html>

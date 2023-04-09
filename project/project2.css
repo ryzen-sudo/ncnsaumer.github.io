@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 7ch;
+  background-color: #1f1f1f;
+}
+header nav ul{
+background-color: rgb(21, 20, 20);
+height:10vh ;
+display: flex;
+
+font-family: "Chivo Mono", monospace;
+  display: flex;
+  gap: 150px;
+list-style: none;
+  
+font-size: 26px;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+padding: 10px;
+transition: 0.5s ease;
+
+
+}
+nav ul:hover li a {
+color: #30edf4;
+
+
+}
+ nav ul:hover li a:not(:hover) {
+  color: white;
+  opacity: 0.3;
+  filter: blur(1px);
+  
+  }
+  
+  
+
+  
+
+  
+    
+
+  
+
+
+
+main {
+  background-color: #050f66;
+  /* background-image:  url(IMG_1621.JPG);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+   */
+  padding: 10px;
+}
+h2.headingfeatureproduct{
+  text-align: center;
+  padding: 3ch;
+  font-size: 12ch;
+  color: yellow;
+  text-shadow: red 4px solid;
+}
+#pink{
+  background-position: left;
+  width: 300px;
+  color: rgb(3, 3, 3);
+  font-size: 3ch;
+  font-weight: 500;
+
+}
+button.addtocart{
+  width: 9ch;
+  height: 5ch;
+  text-align: center;
+  font-size: 2ch;
+}
+button.cashondilvery{
+  width: 9ch;
+  height: 5ch;
+  text-align: center;
+  font-size: 2ch;
+}
+h3{
+  color: #FFD700	;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4ch;
+}
+h1{
+  color: red;
+}
+
+
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+background-position: right;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+#v{
+
+  color:red;
+}
+hr{
+  color: black;
+}
+/* body{
+  background-image: src="images.jpeg";
+} */
+button{
+  color: black	;
+  background-color: #FFD700	;
+  width: 9ch;
+  height: 5ch;
+  text-align: center;
+  font-size: 2ch;
+
+}
+#umer{
+  background-color: gray;
+  color: #FFD700;
+  background-position: center;
+}
+
+  
+.next-page-button {
+  background-color: blue;
+  background-position: bottom center;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.next-page-button:hover {
+  background-color: lightblue;
+  transform: translateY(-5px);
+}
+
+.previous-page-button {
+background-color: blue;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+transition: all 0.2s ease-in-out;
+}
+
+.previous-page-button:hover {
+background-color: lightblue;
+transform: translateX(-5px);
+}
+
+

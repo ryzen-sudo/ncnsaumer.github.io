@@ -1,0 +1,294 @@
+body{
+    background-color:  #02398b;
+}
+   /* Ncnsa heading*/
+   header{
+    background-image: url(/bgmofheading.jpg);
+    
+   }
+h1{
+    text-align: center;
+    text-decoration: solid;
+    color: yellow;
+    font-size: 1000%;
+    margin: 0%;
+    
+}
+    /* Ncnsa full form*/
+h2{
+    text-align: center;
+    text-decoration:underline;
+    color: #FFD700	;
+}
+    /* nav tags*/
+nav{
+    background-color: black;
+    overflow: hidden;
+    
+
+}
+nav a{
+    color:  white;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    font-weight: bolder;
+}
+nav a:hover{
+    color:  yellowgreen;
+}
+    /*heading and paragraph 01*/
+.whoarewe{
+    text-align: center;
+    font-size: 8ch;
+    color: #FFD700;
+    text-shadow: 2px 2px rgb(238, 12, 12);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:1ch ;
+    margin: 0;
+}
+div.whoarewe2{
+    font-size: 3ch;
+    text-align: center;
+    font-weight: 700;
+    padding: 1px 1px 1px 1px;
+    box-sizing: border-box;
+    margin-top: 4ch;
+    }
+    .button:hover {
+        transform: scale(1.5);
+        background: linear-gradient(
+            45deg,
+            hsla(125, 73%, 71%, 0.699),
+            hsla(118, 80%, 52%, 0.664)) 100% 
+            }
+.button {
+    background-color: #098d5d;
+    border: 1px solid rgb(122, 240, 122);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 2ch;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;}
+    .contactnow{
+        text-decoration: none;
+        color: white;
+      }
+
+         /* heading and para 2*/
+h3.service{
+    font-size: 5ch;
+    color: #FFA600;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding: 0;
+    margin-top: 0ch;
+}
+.whatwedo{
+    display: inline;
+}
+div.whatwedo{
+    font-size: 3ch;
+    text-align: left;
+    font-weight: 700;
+    display: inline;
+    padding: 1px 1px 1px 1px;
+    box-sizing: border-box;
+    margin-top: 0ch;
+    
+    width: 50%;
+    
+}
+img.whatwedo{
+    margin-top: 8ch;
+    width: 25%;
+    float: left;
+    padding: .5ch;
+}
+
+            /* heading and para 03*/
+    h3.penetest{
+        font-size: 8ch;
+        color: #FFA600;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+    p.penetest2{
+        font-size: 3ch;
+        font-weight: 700;
+        text-align: center;
+        padding: 1px 1px 1px 1px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    div.ndpara{
+        width: 50%;
+        float:right
+           
+    }
+         /* heading and para 04*/
+    h3.datasecurity{
+        font-size: 8ch;
+        color: #FFA600;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    p.datapara{
+        font-size: 3ch;
+        font-weight: 700;
+        text-align: center;
+        padding: 1px 1px 1px 1px;
+        box-sizing: border-box;
+        margin: 0
+    }
+    div.heading04{
+        float: left;
+        margin-top: 10ch;    
+        box-sizing: border-box;
+        width: 70%;
+       
+    }
+
+    img.datapara{
+        
+        width: 30%;
+        float: right;
+        
+        
+        
+        
+    }
+             
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+               /* This is footer*/
+               .footer {
+                background-color: #333;
+                color: #fff;
+                padding: 40px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+              }
+              
+              .footer-title {
+                margin: 3ch;
+                font-size: 29px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              }
+              .footer-left{
+                text-align: center;
+                margin-left: 57ch;
+              }
+              .footer-right{
+                text-align: center;
+                margin: 2ch;
+                margin-left: 57ch;
+                padding: 3ch;
+              }
+              .footer-right a:hover{
+                color: yellow;
+                
+              }
+              
+              .footer-text {
+                margin: 10px 0;
+                font-size: 16px;
+              }
+              
+              .footer-menu {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+              }
+              
+              .footer-menu li {
+                margin: 0 10px;
+              }
+              
+              .footer-menu a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+              }
+              
+              .footer-social {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                margin-left: 20px;
+              }
+              
+              .footer-social li {
+                margin: 0 10px;
+              }
+              
+              .footer-social a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 20px;
+              }
+              
+              .footer-social i {
+                transition: all 0.2s ease-in-out;
+              }
+              
+              .footer-social a:hover i {
+                transform: scale(1.2);
+              }
+              .footer {
+                
+                
+                height:30%;
+                width:100%;
+                background:#3a3737;
+
+              }             
+    
+              .next-page-button {
+                background-color: blue;
+                background-position: bottom center;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+              }
+            
+              .next-page-button:hover {
+                background-color: lightblue;
+                transform: translateY(-5px);
+              }
+              
+  .previous-page-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .previous-page-button:hover {
+    background-color: lightblue;
+    transform: translateX(-5px);
+  }
+
+
